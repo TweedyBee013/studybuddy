@@ -37,21 +37,21 @@
 <div class="wrap">
   <div class="kicker">Study Buddy</div>
   <h1>Privacy Policy</h1>
-  <div class="date">Last updated 31 October 2026</div>
+  <div class="date">Last updated 1 November 2026</div>
 
   <p class="lead">Study Buddy is a focus app: you study, and your time grows a small home for Buddy. Everything you do
   in the app is kept on your iPhone. There are no accounts and no servers of our own.</p>
 
   <div class="card">
     <strong>The short version:</strong> Your subjects, study sessions, progress, home and photos stay on your device.
-    If you say yes when the app asks, it sends anonymous usage statistics to our analytics provider, Amplitude, to
-    help us improve the app. You can say no, or switch it off at any time in Settings. No ads, no tracking across
+    If you say yes when the app asks, it sends usage statistics that are not linked to your identity to our analytics
+    provider, Amplitude, to help us improve the app. You can say no, or switch it off at any time in Settings. No ads, no tracking across
     apps, no selling of data.
   </div>
 
   <h2>Who we are</h2>
-  <p>Study Buddy is developed by <strong>Alfa Edge AS</strong> (Norway), the data controller for the limited data
-  described here. Questions about this policy or your privacy:
+  <p>Study Buddy is developed by <strong>Alfa Edge AS</strong> (organisation number 928 634 671, Oslo, Norway), the
+  data controller for the limited data described here. Questions about this policy or your privacy:
   <a href="mailto:sander.b.lyngstad@gmail.com">sander.b.lyngstad@gmail.com</a>.</p>
 
   <h2>What stays on your device</h2>
@@ -64,9 +64,9 @@
   <p>We cannot see or access any of this. It is included in your own iPhone or iCloud backups like other app data,
   and it is deleted when you delete the app.</p>
 
-  <h2>Anonymous usage statistics (only with your consent)</h2>
-  <p>During setup the app asks whether you want to share anonymous usage data. Nothing is sent before you answer yes,
-  and you can change your answer at any time in <span class="muted">Settings → Privacy → Share anonymous usage data</span>.
+  <h2>Usage statistics (only with your consent)</h2>
+  <p>During setup the app asks whether you want to share usage data. Nothing is sent before you answer yes,
+  and you can change your answer at any time in <span class="muted">Settings → Privacy → Share usage data</span>.
   If you say yes, the app sends these events to <strong>Amplitude</strong>, our analytics provider:</p>
   <ul>
     <li>a study session started or finished (planned and focused minutes, whether it was completed, Credits and XP
@@ -76,12 +76,22 @@
     <li>when the app was opened and closed (app sessions).</li>
   </ul>
   <p>With these events Amplitude receives technical information such as the device model, iOS version, app version
-  and language, and a device identifier that Apple provides per app developer (not the advertising identifier).
-  We have turned off collection of IP address, city, region and mobile carrier. The data is not linked to your name,
-  email or any account (the app has none), is not used for advertising, and is not combined with data from other
-  apps or websites. It is processed on Amplitude's servers in the United States, under Amplitude's
+  and language, and a random identifier that the app creates for Amplitude (a new one if you reinstall the app; it is
+  not the advertising identifier or Apple's identifier for vendors). We have turned off collection of IP address,
+  country, city, region, DMA and mobile carrier, so Amplitude receives no location. This data is pseudonymous: it is
+  not linked to your name, email or any account (the app has none), is not used for advertising, and is not combined
+  with data from other apps or websites. It is processed on Amplitude's servers in the United States, under Amplitude's
   data processing terms and the safeguards they provide for transfers from the EU/EEA.</p>
+  <p>The usage statistics are kept for as long as needed to improve the app, and no longer than Amplitude's
+  retention setting for our project.</p>
   <p>The legal basis is your consent (GDPR Art. 6(1)(a)), which you can withdraw at any time in Settings.</p>
+
+  <h2>If you send a problem report</h2>
+  <p>If something goes wrong, the app can prepare an email to us with a short report. It is only sent if you choose
+  to send it from your own email app, and you can read and change it first. It contains what you write, the app
+  version, the device model, the iOS version, the time, a short description of the error and a report number, and
+  your email address comes with the email. We use it only to fix the problem, and we delete it when it is no longer
+  needed or when you ask.</p>
 
   <h2>Permissions, and why the app asks</h2>
   <ul>
@@ -109,7 +119,12 @@
 
   <h2>Children</h2>
   <p>Study Buddy has no accounts, no ads, no chat and no way for users to contact each other. The only data that can
-  leave the device is the anonymous usage statistics described above, and only after a yes.</p>
+  leave the device is the usage statistics described above, and only after a yes (and a problem report, if you
+  choose to send one).</p>
+
+  <h2>Testing with TestFlight</h2>
+  <p>If you test Study Buddy before release through Apple's TestFlight, Apple shares your email address (or name) with
+  us, and the crash reports, screenshots and feedback you choose to send from TestFlight.</p>
 
   <h2>Your rights</h2>
   <p>You can withdraw consent to usage statistics at any time in Settings. Because these statistics are not linked
