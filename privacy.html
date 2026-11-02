@@ -44,9 +44,9 @@
 
   <div class="card">
     <strong>The short version:</strong> Your subjects, study sessions, progress, home and photos stay on your device.
-    The app sends usage statistics that are not linked to your identity to our analytics provider, Amplitude, to
-    help us improve the app. You can switch this off at any time in Settings. No ads, no tracking across
-    apps, no selling of data.
+    The app sends usage statistics that are not linked to your identity to Amplitude (you can switch this off in
+    Settings), and anonymous subscription statistics to RevenueCat so we can run Study Buddy Pro. Ideas and messages
+    you choose to send us go through WishKit. No ads, no tracking across apps, no selling of data.
   </div>
 
   <h2>Who we are</h2>
@@ -87,6 +87,31 @@
   <p>The legal basis is our legitimate interest in improving the app (GDPR Art. 6(1)(f)). You can object at any time
   by switching usage data off in Settings.</p>
 
+  <h2>Subscription statistics (RevenueCat)</h2>
+  <p>To understand how Study Buddy Pro is doing (for example how many trials turn into subscriptions, renewals and
+  cancellations), the app uses <strong>RevenueCat</strong>. It only watches the purchases you make through Apple; it
+  does not handle payment, and Apple still decides whether Pro is active. Because it is part of how we run the
+  subscription, it is not switched off by <span class="muted">Share usage data</span>.</p>
+  <p>RevenueCat receives your App Store purchase history for Study Buddy (which plan, the price and currency, the
+  purchase, trial, renewal and cancellation dates, and Apple's transaction identifiers), the store country and
+  language, the app and iOS version and the device model, and a random identifier that RevenueCat creates for this
+  install. Like any internet service it sees your IP address when the app connects. We do not give RevenueCat your
+  name, email or any other contact information, and do not use it for advertising. RevenueCat processes this data
+  on our behalf on servers in the United States, under its data processing terms and the safeguards it provides for
+  transfers from the EU/EEA. The data is kept while our RevenueCat project exists; we can delete it on request.</p>
+  <p>The legal basis is our legitimate interest in understanding and running the subscription (GDPR Art. 6(1)(f)).
+  The data is not linked to your identity. You can object or ask for deletion by emailing us.</p>
+
+  <h2>Ideas, votes and chat (WishKit)</h2>
+  <p>In <span class="muted">Settings → Feedback</span> you can suggest ideas, vote on them and chat with the
+  developer. This is provided by <strong>WishKit</strong>, and only what you choose to write or vote is sent. WishKit
+  receives your ideas, votes and messages, a random identifier that WishKit creates on your device so your votes and
+  chat stay together, and the app's name and identifier. It does not receive your name or email from the app.</p>
+  <p>New ideas are only shown to other users after we have approved them. Please don't write personal information in
+  ideas or messages. WishKit stores this on servers in the United States (Heroku on Amazon Web Services) and keeps it
+  until we delete it; ask us and we will delete your ideas and messages. The legal basis is our legitimate interest
+  in hearing from users and answering them (GDPR Art. 6(1)(f)).</p>
+
   <h2>If you send a problem report</h2>
   <p>If something goes wrong, the app can prepare an email to us with a short report. It is only sent if you choose
   to send it from your own email app, and you can read and change it first. It contains what you write, the app
@@ -112,30 +137,41 @@
   <h2>Purchases</h2>
   <p>Study Buddy Pro is sold as an auto-renewing subscription through Apple's App Store. Payment is handled entirely
   by Apple; we never receive your payment details. The app only learns from Apple whether Pro is active.
-  Furniture bought with in-app Credits involves no money.</p>
+  Furniture bought with in-app Credits involves no money. Subscription purchases are also reported to RevenueCat as
+  described above.</p>
 
   <h2>Sharing</h2>
   <p>When you choose to share a card (for example after a session), the app creates the picture on your device and
   hands it to the iOS share sheet. What happens next is up to you and the app you share to.</p>
 
   <h2>Children</h2>
-  <p>Study Buddy has no accounts, no ads, no chat and no way for users to contact each other. The only data that can
-  leave the device is the usage statistics described above, and only after a yes (and a problem report, if you
-  choose to send one).</p>
+  <p>Study Buddy is made for students. It has no accounts, no ads and no way for users to message each other; ideas
+  only appear for others after we approve them. The data that can leave the device is the usage statistics (until
+  switched off) and the anonymous subscription statistics described above, and ideas, messages or problem reports a user chooses to send.
+  If you are a parent or guardian and believe your child has sent us personal information, contact us and we will
+  delete it.</p>
 
   <h2>Testing with TestFlight</h2>
   <p>If you test Study Buddy before release through Apple's TestFlight, Apple shares your email address (or name) with
   us, and the crash reports, screenshots and feedback you choose to send from TestFlight.</p>
+
+  <h2>Security</h2>
+  <p>Everything the app sends is sent encrypted (HTTPS), and only to the services named here. Data on your iPhone is
+  protected by iOS like other app data. No system is perfectly secure, but we collect as little as possible so that
+  there is little to protect.</p>
 
   <h2>Your rights</h2>
   <p>You can switch usage statistics off at any time in Settings. Because these statistics are not linked
   to your identity, we usually cannot single out your data, but you are welcome to contact us with any request
   (access, deletion, objection) and we will help as far as we can. You also have the right to complain to the
   Norwegian Data Protection Authority (Datatilsynet) or your local authority.</p>
+  <p><strong>California residents:</strong> we do not sell or share personal information as defined by the CCPA/CPRA,
+  and do not use it for cross-context behavioural advertising. You may ask what we hold about you and ask us to
+  delete it, and we will not treat you differently for asking.</p>
 
   <h2>Changes to this policy</h2>
   <p>If the app changes in a way that affects privacy, we will update this page and the date at the top before that
-  change ships.</p>
+  change ships, and mention important changes in the app's update notes.</p>
 
   <hr>
   <p class="muted">Questions? Email <a href="mailto:sander.b.lyngstad@gmail.com">sander.b.lyngstad@gmail.com</a>.</p>
