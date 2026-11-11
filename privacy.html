@@ -37,14 +37,14 @@
 <div class="wrap">
   <div class="kicker">Study Buddy</div>
   <h1>Privacy Policy</h1>
-  <div class="date">Last updated 6 November 2026</div>
+  <div class="date">Last updated 11 November 2026</div>
 
   <p class="lead">Study Buddy is a focus app: you study, and your time grows a small home for Buddy. Everything you do
   in the app is kept on your iPhone or iPad. There are no accounts and no servers of our own.</p>
 
   <div class="card">
     <strong>The short version:</strong> Your subjects, study sessions, progress, home and photos stay on your device.
-    The app sends usage statistics that are not linked to your identity to Amplitude (you can switch this off in
+    The app sends usage statistics and masked screen recordings that are not linked to your identity to Amplitude (you can switch this off in
     Settings), and anonymous subscription statistics to RevenueCat so we can run Study Buddy Pro. Ideas and messages
     you choose to send us go through WishKit. No ads, no tracking across apps, no selling of data.
   </div>
@@ -72,9 +72,22 @@
     <li>a study session started or finished (planned and focused minutes, whether it was completed, Credits and XP
       earned, your level);</li>
     <li>furniture bought with in-app Credits (which item and its price in Credits), and a room unlocked;</li>
-    <li>a share card shown or shared;</li>
+    <li>a level reached, and a seasonal item earned with study time;</li>
+    <li>the Study Buddy Pro page shown and closed (where it was opened from and for how long), and Pro purchases,
+      trials, restores and subscription changes (which plan, the price and currency, whether it was a free trial);</li>
+    <li>which onboarding pages were seen and how long onboarding took;</li>
+    <li>whether you allowed notifications or Focus Mode, a notification opened, a Live Activity started or ended, a
+      Study Capture photo saved (never the photo or which apps you chose), and a share card shown or shared;</li>
     <li>when the app was opened and closed (app sessions).</li>
   </ul>
+  <p><strong>Session recordings.</strong> While usage statistics are on, the app also sends Amplitude a recording of how
+  you move through the screens (taps, scrolling and which screens you open), so we can see where the app is hard to use.
+  All text in the recording is hidden, including what you type, your subject names and Buddy's name, and the camera and
+  Study Capture photos are left out entirely. The recordings are tied only to the same random identifier, never to your
+  name or an account, are not used for advertising, and stop as soon as you switch usage data off.</p>
+  <p>Amplitude also keeps a short summary for this random identifier: your level, Credits and total study minutes,
+  whether you have Pro and which plan, whether onboarding is done, and the app's build number and whether it came
+  from the App Store or TestFlight.</p>
   <p>With these events Amplitude receives technical information such as the device model, iOS version, app version
   and language, and a random identifier that the app creates for Amplitude (a new one if you reinstall the app; it is
   not the advertising identifier or Apple's identifier for vendors). We have turned off collection of IP address,
@@ -137,8 +150,8 @@
   <h2>Purchases</h2>
   <p>Study Buddy Pro is sold as an auto-renewing subscription through Apple's App Store. Payment is handled entirely
   by Apple; we never receive your payment details. The app only learns from Apple whether Pro is active.
-  Furniture bought with in-app Credits involves no money. Subscription purchases are also reported to RevenueCat as
-  described above.</p>
+  Furniture bought with in-app Credits involves no money. Subscription purchases are also reported to RevenueCat and,
+  unless usage data is switched off, to Amplitude, as described above.</p>
 
   <h2>Sharing</h2>
   <p>When you choose to share a card (for example after a session), the app creates the picture on your device and
